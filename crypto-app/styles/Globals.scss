@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import 'variables';
+
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: $primary-font;
+}
+
+h1{
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: darkgrey;
+}
+
+.btn{
+    padding: 6px 30px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: .8em;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    color: $main-black;
+}
+
+.btn-main{
+    @extend .btn;
+    background-color: $primary-color;
+    color: $main-black;
+    border-color: $primary-color;
+}
+
+.btn-main:hover{
+    color: $primary-color;
+    background-color: transparent;
+}
+
+.center-section{
+    color: white;
+    background-color: $main-black;
+    padding: 150px 15vw;
+}
+
+.user-info-container{
+    display: flex;
+}
+
+// CSS para componentes
+// --section title--
+.section-title{
+    text-transform: uppercase;
+}
+
+@media (min-width: 1600px) {
+    .center-section{
+        padding: 150px 25vw;
+    }
+}

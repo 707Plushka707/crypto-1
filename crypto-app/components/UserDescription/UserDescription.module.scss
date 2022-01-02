@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.user-description{
+    // height: 150vh;
+}
+
+.user-description__user{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.user-description__main{
+    margin-bottom: 25px;
+}
+
+.user-description__name{
+    color: $primary-color;
+    font-family: $secondary-font;
+    text-transform: uppercase;
+}
+
+.user-description__description{
+    color: $primary-gray;
+}

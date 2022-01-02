@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.user-card{
+    padding: 4px!important;
+    transition: .3s;
+    border: 1px solid transparent;
+}
+
+.user-card__sticky{
+    position: fixed;
+    // background-color: rgba(255,255,255, .1);
+    border-radius: 4px;
+    border: 1px solid $primary-color;
+    box-shadow: $main-shadow;
+}
+
+.user-card__img{
+    width: 210px;
+    height: 210px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: $primary-gray;
+}
+
+.user-card__subscribe{
+    margin-bottom: 10px;
+}

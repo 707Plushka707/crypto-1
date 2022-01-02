@@ -1,0 +1,15 @@
+@import '../../styles/variables';
+
+.trade-row__view-more{
+    color: $primary-gray;
+    font-weight: bold;
+    border-bottom: 2px solid $primary-gray;
+    width: fit-content;
+    font-size: .85em;
+}
+
+.trade-row__view-more:hover{
+    cursor: pointer;
+    color: $primary-color;
+    border-color: $primary-color;
+}

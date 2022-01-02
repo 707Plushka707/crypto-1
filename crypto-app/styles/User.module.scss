@@ -1,0 +1,18 @@
+.user-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.user-info__info-body{
+    width: 70%;
+    height: 150vh;
+}
+
+.user-info__user-description{
+    margin-bottom: 100px;
+}
+
+.user-info__module{
+    margin-bottom: 100px;
+}

@@ -1,0 +1,64 @@
+@import '../../styles/variables';
+
+.performance{
+
+    h3{
+        margin-right: 50px;
+    }
+
+    .performance__title-basecoins{
+        display: flex;
+        align-items: center;
+    
+        .performance__basecoins{
+            display: flex;
+
+            .performance__basecoin{
+                font-size: .7em;
+                font-weight: bold;
+                background-color: #333333;
+                height: fit-content;
+                padding: 4px 8px;
+                margin-right: 10px;
+                border-radius: 3px;
+                border: 1px solid transparent;
+            }
+
+            .performance__basecoin:hover{
+                border-color: $primary-color;
+                cursor: pointer;
+            }
+
+            .performance__basecoin__selected{
+                background-color: $primary-color;
+                color: #333333;
+            }
+
+        }
+    }
+    
+    .performance__stats{
+        display: flex;
+        
+        .performance__stat{
+            margin-right: 70px;
+        }
+        
+        .performance__stat:last-of-type{
+            margin-right: 0;
+        }
+        
+        .performance__stat-label{
+            color: $primary-gray;
+            text-transform: uppercase;
+            font-family: $secondary-font;
+        }
+        
+        .performance__stat-value{
+            color: $primary-color;
+            font-weight: bold;
+            font-size: 2em;
+        }
+    }
+
+}

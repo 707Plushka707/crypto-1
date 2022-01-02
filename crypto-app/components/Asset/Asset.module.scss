@@ -1,0 +1,29 @@
+@import '../../styles/variables';
+
+.asset{
+    display: flex;
+    flex-direction: column;
+    margin-right: 18px;
+    font-weight: bold;
+    
+    .asset__icon{
+        height: 70px;
+        width: 70px;
+        background-color: rgba(255,255,255, .1);
+        border-radius: 4px;
+        margin-bottom: 5px;
+    }
+    
+    .asset__info{
+        display: flex;
+    }
+    
+    .asset__coin{
+        margin-right: 5px;
+    }
+    
+    .asset__percentage{
+        color: $primary-color;
+    }
+
+}
